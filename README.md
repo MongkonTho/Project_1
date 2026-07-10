@@ -2,10 +2,10 @@
 
 ## Background and Overview
 ### Business Problem
-An insurance company has experienced increasing customer churn over the past year (YYYY=YYYY. Customer acquisition costs continue to rise, making customer retention a strategic priority. Management wants to understand which customers are leaving, why they are leaving, and what actions can reduce churn.
+A Brazilia e-commerce platform of Olist Store  has experienced increasing customer churn over the period between 2016 and 2018. Customer acquisition costs continue to rise, making customer retention a strategic priority. Management wants to understand which customers are leaving, why they are leaving, and what actions can reduce churn.
 
 ### Business Questions
-1) What is the current customer churn rate?
+1) What is the trend of customer churn rate?
 2) How much revenue is being lost due to customer churn?
 3) Which customer segments have the highest risk of churn? and which ones generate the highest customer lifetime value (CLV)?
 4) What factors contribute to customer churn?
@@ -21,15 +21,8 @@ An insurance company has experienced increasing customer churn over the past yea
 #### Tools: [SQL](#) · [Python](#) · [Dashboard](#)
 
 ## Data Overview
-Auto Insurance churn datasets provided by [Merishna Singh Suwal in Kaggle](https://www.kaggle.com/datasets/merishnasuwal/auto-insurance-churn-analysis-dataset)
-
-It  consists of four distinct data files  as follows
-1. address.csv: contains address information
-2. customer.csv: contains customer information.
-3. demographic.csv: contains demographic data
-4. termination.csv: includes customer termination information.
-The data set includes 2.2M customer records
-
+Brazilian E-Commerce Public Dataset provided by [Olist in Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+The dataset has information of 100k orders coverving 96K customers from 2016 to 2018. It contains 9 relational tables.
 
 | Metric  | Value |
 | ------------- | ------------- |
@@ -50,7 +43,7 @@ These findings suggest that customer retention strategies should prioritize earl
 
 ## Insights Deep-Dive
 - Who is leaving?
--  Why are they leaving?
+- Why are they leaving?
 - Who's at risk?
 [each: 1 chart + 2-3 sentence insight]
 
