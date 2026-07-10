@@ -2,19 +2,34 @@
 
 ## Background and Overview
 ### Business Problem
-A telecommunications company has experienced an increase in customer churn over the past year. Since retaining existing customers is generally more cost-effective than acquiring new ones, the management team wants to understand the factors associated with customer attrition and identify opportunities to improve customer retention.
+An insurance company has experienced increasing customer churn over the past year (YYYY=YYYY. Customer acquisition costs continue to rise, making customer retention a strategic priority. Management wants to understand which customers are leaving, why they are leaving, and what actions can reduce churn.
+
+### Business Questions
+1) What is the current customer churn rate?
+2) How much revenue is being lost due to customer churn?
+3) Which customer segments have the highest risk of churn? and which ones generate the highest customer lifetime value (CLV)?
+4) What factors contribute to customer churn?
+5) What actions could management take to reduce customer churn?
+
 ### Objectives
-This project analyzes customer demographics, subscription details, and service usage to answer key business questions and provide data-driven recommendations.
-### Business QuestionsWho is leaving?
-- What factors are associated with customer churn?
-- Which customer segments are most at risk?
-- What actions could reduce customer churn?
+1) Measure the customer churn rate.
+2) Estimate the revenue lost due to churn.
+3) Identify customer segments carrying the highest churn risk and the highest lifetime value
+4) Determine the leading indicators of churn.
+5) Recommend strategies to improve customer retention.
 
 #### Tools: [SQL](#) · [Python](#) · [Dashboard](#)
 
 ## Data Overview
+Auto Insurance churn datasets provided by [Merishna Singh Suwal in Kaggle](https://www.kaggle.com/datasets/merishnasuwal/auto-insurance-churn-analysis-dataset)
 
-The dataset contains customer demographic information, subscription characteristics, billing details, and service usage.
+It  consists of four distinct data files  as follows
+1. address.csv: contains address information
+2. customer.csv: contains customer information.
+3. demographic.csv: contains demographic data
+4. termination.csv: includes customer termination information.
+The data set includes 2.2M customer records
+
 
 | Metric  | Value |
 | ------------- | ------------- |
