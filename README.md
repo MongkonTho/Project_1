@@ -1,28 +1,43 @@
-# Customer Churn Analysis
+# Olist Marketplace Performance Analysis
 
 ## Background and Overview
 ### Business Problem
-A Brazilia e-commerce platform of Olist Store  has experienced increasing customer churn over the period between 2016 and 2018. Customer acquisition costs continue to rise, making customer retention a strategic priority. Management wants to understand which customers are leaving, why they are leaving, and what actions can reduce churn.
+Olist is a Brazilian e-commerce marketplace that connects customers with thousands of independent sellers across Brazil. After several years of operation, the executive team wants to evaluate the marketplace's performance between 2016 and 2018 to identify opportunities for sustainable growth and operational improvement. 
 
-### Business Questions
-1) What is the trend of customer churn rate?
-2) How much revenue is being lost due to customer churn?
-3) Which customer segments have the highest risk of churn? and which ones generate the highest customer lifetime value (CLV)?
-4) What factors contribute to customer churn?
-5) What actions could management take to reduce customer churn?
+Although Olist has experienced steady marketplace growth, management lacks a comprehensive view of business performance across multiple domains, including sales, customers, logistics, and sellers. Without these insights, it is difficult to identify growth opportunities, improve customer experience, and prioritize operational improvements.
+
+#### Business Questions
+**How can Olist achieve sustainable revenue growth by improving customer retention, seller performance, and delivery experience?** This overarching question is broken down into four sub-domains as follows;
+
+1) **Sales performance**: How is the business performing and what drives revenue?
+2) **Customer analytics**: Who are the most valuable customers and how can retention be improved?
+3) **Operational excellence**: Where are delivery inefficiencies and how do they affect the customer experience?
+4) **Marketplace performance**: Which sellers and product categories drive success and which require intervention?
 
 ### Objectives
-1) Measure the customer churn rate.
-2) Estimate the revenue lost due to churn.
-3) Identify customer segments carrying the highest churn risk and the highest lifetime value
-4) Determine the leading indicators of churn.
-5) Recommend strategies to improve customer retention.
+This project aims to analyze Olist's marketplace performance from four business domains to generate actionable recommendations for management:
+1) Evaluate sales performance and revenue drivers.
+2) Understand customer purchasing behavior and retention.
+3) Assess delivery performance and operational efficiency.
+4) Identify high-performing sellers and product categories.
 
-#### Tools: [SQL](#) · [Python](#) · [Dashboard](#)
+#### Tools
+This project demonstrates an end-to-end data analytics workflow using:
+
+- **[SQL](#)**: Data extraction, cleaning, joins, KPI calculations
+- **[Python](#)**: Exploratory data analysis and visualization
+- **[Tableau](#)**: Interactive executive dashboard
 
 ## Data Overview
-Brazilian E-Commerce Public Dataset provided by [Olist in Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-The dataset has information of 100k orders coverving 96K customers from 2016 to 2018. It contains 9 relational tables.
+This project uses the Brazilian E-Commerce Public Dataset provided by [Olist on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). The dataset contains approximately:
+- Nine relational tables covering orders, customers, products, sellers, payments, logistics, reviews, and geolocation between 2016 and 2018.
+- 100,000 orders
+- 96,000 customers
+- Thousands of sellers
+- Multiple product categories
+
+
+
 
 | Metric  | Value |
 | ------------- | ------------- |
